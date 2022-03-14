@@ -1,0 +1,19 @@
+{
+  "botium": {
+    "Capabilities": {
+      "CONTAINERMODE": "alexa-smapi",
+      "WAITFORBOTTIMEOUT": 40000,
+      "ALEXA_SMAPI_LOCALE": "en-US",
+      "ALEXA_SMAPI_ENDPOINTREGION": "default",
+      "ALEXA_SMAPI_API": "simulation",
+      "PROJECTNAME": "Debug Project Voiceflow",
+      "ALEXA_SMAPI_REFRESHTOKEN": "Atzr|xxx",
+      "ALEXA_SMAPI_CLIENTID": "amzn1.application-oa2-client.xxx",
+      "ALEXA_SMAPI_CLIENTSECRET": "xxx",
+      "ALEXA_SMAPI_VENDORID": "xxx",
+      "ALEXA_SMAPI_SKILLID": "amzn1.ask.skill.xxx"
+    },
+    "Sources": {},
+    "Envs": {}
+  }
+}

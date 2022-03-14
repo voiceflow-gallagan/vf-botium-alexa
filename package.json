@@ -1,0 +1,32 @@
+{
+  "name": "botium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec --reporter mochawesome --reporter-options \"code=false,reportTitle=Voiceflow Test,inline=true,overwrite=true\" --exit spec",
+    "import-utterances": "botium-connector-alexa-smapi-cli import --output spec/utterances",
+    "import-convos": "botium-connector-alexa-smapi-cli import --buildconvos --output spec/import",
+    "export": "botium-connector-alexa-smapi-cli export --input spec/utterances"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "botium-bindings": "^2.1.13",
+    "botium-connector-alexa-smapi": "^0.0.12",
+    "mocha": "^9.2.2",
+    "botium-connector-echo": "latest"
+  },
+  "botium": {
+    "convodirs": [
+      "spec/convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false,
+    "expandScriptingMemoryToConvos": false
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.2"
+  }
+}

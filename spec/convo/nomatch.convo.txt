@@ -1,0 +1,18 @@
+Debug Project Voiceflow
+#me
+open debug project voiceflow
+
+#bot
+Hi there, please give me your name.
+
+#me
+I don't know
+
+#bot
+Umm, I need your name.
+
+#me
+Nicolas
+
+#bot
+Hi Nicolas
